@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import contactImg from "../assets/images/contact-img.svg"
-// import colorGradient2 from "../assets/images/color-sharp2.png"
+import colorGradient2 from "../assets/images/color-sharp2.png"
 
 export default function Contact() {
     const formInitialDetails = {
@@ -85,7 +85,7 @@ export default function Contact() {
                     </Col>
                 </Row>
             </Container>
-            {/* <img src={colorGradient2} alt="Color Gradient" className='background-image-right' /> */}
+            <img src={colorGradient2} alt="Color Gradient" className='background-image-right' />
         </section>
     )
 }

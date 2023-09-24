@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 import ProjectCards from './ProjectCards';
-import colorGradient2 from "../assets/images/color-sharp2.png"
+// import colorGradient2 from "../assets/images/color-sharp2.png"
 import "animate.css"
 import TrackVisibiliy from "react-on-screen"
 import { dataTab1, dataTab2 } from "../ProjectsData"
@@ -16,7 +16,7 @@ export default function Projects() {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                     <h2>Projects</h2>
-                                    <p>Below are some of the projects I have been working around lately. Have a view of them...</p>
+                                    <p>Below are some of the projects, I have been working on lately. Have a view of them...</p>
                                 </div>}
                         </TrackVisibiliy>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -70,7 +70,7 @@ export default function Projects() {
                     </Col>
                 </Row>
             </Container>
-            <img className='background-image-right' src={colorGradient2} alt="Color Gradient" />
+            {/* <img className='background-image-right' src={colorGradient2} alt="Color Gradient" /> */}
         </section>
     )
 }

@@ -34,7 +34,7 @@ export default function Skills() {
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>I have a bunch of skills in Web Development & Data Structures, some of these skills are listed below.</p>
+                            <p>I have a bunch of skills in the field of Web Development & Data Structures, some of them are mentioned below.</p>
                             <Carousel responsive={responsive} infinite={true} swipeable={true} draggable={false} className='skill-slider'>
                                 <div className="item">
                                     <img src={meterImg3} alt="Skill Meter" />
@@ -44,9 +44,13 @@ export default function Skills() {
                                     <img src={meterImg2} alt="Skill Meter" />
                                     <h5>Data Science</h5>
                                 </div>
-                                <div className="item">
+                                {/* <div className="item">
                                     <img src={meterImg2} alt="Skill Meter" />
-                                    <h5>Data Stuctures</h5>
+                                    <h5>Data Stuctures & Algorithms</h5>
+                                </div> */}
+                                <div className="item">
+                                    <img src={meterImg1} alt="Skill Meter" />
+                                    <h5>Front-End Development</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meterImg3} alt="Skill Meter" />
