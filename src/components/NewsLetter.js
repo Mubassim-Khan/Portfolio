@@ -16,7 +16,6 @@ export const NewsLetter = ({ status, message, onValidated }) => {
       EMAIL: email
     })
   }
-
   const clearFields = () => {
     setEmail('');
   }
