@@ -1,9 +1,6 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meterImg1 from '../assets/images/meter1.svg'
-import meterImg2 from '../assets/images/meter2.svg'
-import meterImg3 from '../assets/images/meter3.svg'
 import colorGradient from "../assets/images/color-sharp.png"
 import { Col, Container, Row } from 'react-bootstrap';
 import { LanguageSkills } from '../SkillsData';
