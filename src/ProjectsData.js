@@ -1,12 +1,9 @@
 import Netflix from "../src/assets/images/netflix-img.jpg"
 import TextTools from "../src/assets/images/text-tools-img.png"
-import Airbnb from "../src/assets/images/airbnb-img.png"
-import businessCard from "../src/assets/images/business-card-img.png"
 import iCalculator from "../src/assets/images/iphone-calc-img.png"
 import landingPage from "../src/assets/images/landing-page-img.png"
 import travelJournal from "../src/assets/images/travel-journal-img.png"
-import reactFunFacts from "../src/assets/images/react-funfacts-img.png"
-import flightAssistant from "../src/assets/images/flight-ai-img.png"
+import businessCard from "../src/assets/images/business-card.png"
 
 export const dataTab1 = [
     {
@@ -19,19 +16,19 @@ export const dataTab1 = [
     },
     {
         id: 2,
-        title: "Text Tools",
-        description: "Text Tools is React JS based app, which provides you various features to manipulate your text in the way you want.",
-        imgURL: TextTools,
-        webURL: "https://mtexttools.netlify.app/",
-        githubURL: "https://github.com/Mubassim-Khan/TextTools-React-JS",
+        title: "CarHub",
+        description: "CarHub is a Next.js based car rental app, which provides you multiple features for searching prefered car depending upon your choice.",
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/CarHub/master/public/Preview.png",
+        webURL: "https://car-hub-gray-seven.vercel.app/",
+        githubURL: "https://github.com/Mubassim-Khan/CarHub",
     },
     {
         id: 3,
-        title: "Airbnb Experiences Clone",
-        description: "Airbnb Experiences Clone is made using React JS which renders cards by fetching data, from official page of Airbnb Experiences.",
-        imgURL: Airbnb,
-        webURL: "https://m-airbnb-experiences.netlify.app/",
-        githubURL: "https://github.com/Mubassim-Khan/Airbnb-Experiences-Clone",
+        title: "Spotify Clone",
+        description: "Spotify Clone is made using Next.js, Typescript, Tailwind CSS & Supabase which allows user to play different songs and much more.",
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/Spotify-Clone-Next.js/master/assets/Preview.png",
+        webURL: "https://spotify-clone-ivory-sigma.vercel.app",
+        githubURL: "https://github.com/Mubassim-Khan/Spotify-Clone-Next.js",
     },
     {
         id: 4,
@@ -43,11 +40,11 @@ export const dataTab1 = [
     },
     {
         id: 5,
-        title: "iPhone Calculator",
-        description: "An iPhone Calculator clone, aims to recreate the visual design, logic & layout of an iOS Calculator.",
-        imgURL: iCalculator,
-        webURL: "https://m-iphone-calculator.netlify.app/",
-        githubURL: "https://github.com/Mubassim-Khan/Iphone-Calculator",
+        title: "zNotebook",
+        description: "zNotebook is a cloud notebook website, made using React.js, MySQL, Node.js, Bootstrap etc.",
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/zNotebook/main/src/assets/images/Preview%203.png",
+        webURL: "",
+        githubURL: "https://github.com/Mubassim-Khan/zNotebook",
     },
     {
         id: 6,
@@ -63,18 +60,18 @@ export const dataTab2 = [
     {
         id: 1,
         title: "Digital Business Card",
-        description: "A responsive Digital Business Card made using React JS, having multiple sections to interact with user.",
+        description: "A responsive Digital Business Card made using React.js, having multiple sections to interact with user.",
         imgURL: businessCard,
         webURL: "https://m-business-card.netlify.app/",
         githubURL: "https://github.com/Mubassim-Khan/Digital-Business-Card",
     },
     {
         id: 2,
-        title: "React Fun Facts",
-        description: "A very simple & static React page, providing a starting point for creating interfaces & web development techniques.",
-        imgURL: reactFunFacts,
-        webURL: "https://funfacts-react.netlify.app/",
-        githubURL: "https://github.com/Mubassim-Khan/React-FunFacts",
+        title: "iPhone Calculator",
+        description: "An iPhone Calculator clone, aims to recreate the visual design, logic & layout of an iOS Calculator.",
+        imgURL: iCalculator,
+        webURL: "https://m-iphone-calculator.netlify.app/",
+        githubURL: "https://github.com/Mubassim-Khan/Iphone-Calculator",
     },
     {
         id: 3,
@@ -86,30 +83,28 @@ export const dataTab2 = [
     },
     {
         id: 4,
-        title: "Recursion in Java",
-        description: "Programs based on recursion in Java language, to understand the flow of program & method of recursion in Data Structures & Algorithm.",
-        imgURL: "",
-        webURL: "",
-        githubURL: "https://github.com/Mubassim-Khan/Recursion-Java",
+        title: "Text Tools",
+        description: "Text Tools is React.js based app, which provides you various features to manipulate your text in the way you want.",
+        imgURL: TextTools,
+        webURL: "https://mtexttools.netlify.app/",
+        githubURL: "https://github.com/Mubassim-Khan/TextTools-React-JS",
     },
     {
         id: 5,
-        title: "OOP in Java",
-        description: "A compilation of Java & Object Oriented codes. Main focus is on covering OOP basic concepts by easy examples.",
-        imgURL: "",
-        webURL: "",
-        githubURL: "https://github.com/Mubassim-Khan/Java-Programs",
+        title: "Meme Generator",
+        description: "Meme Generator allows user to create a meme by inserting text & generators random meme images.",
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/Meme-Generator/main/src/Assets/Capture.png",
+        webURL: "https://m-meme-generator.netlify.app/",
+        githubURL: "https://github.com/Mubassim-Khan/Meme-Generator",
     },
     {
         id: 6,
         title: "Ticket Booking Assistant",
         description: "An AI which books ticket for to save your time. This is made possible by using dialog flow chatbot.",
-        imgURL: flightAssistant,
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/Ticket-Booking-Assistant/master/assets/Preview.png",
         webURL: "https://ticket-booking-assistant.netlify.app/",
         githubURL: "https://github.com/Mubassim-Khan/MLSA-BootCamp-Project-Ticket-Booking-Assistant-",
     }
 ]
 
-export const dataTab3 = [
-
-]
+export const dataTab3 = []

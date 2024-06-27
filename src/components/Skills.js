@@ -62,7 +62,7 @@ export default function Skills() {
                                 </div>
                                 <div className="item">
                                     <img src={meterImg1} alt="Skill Meter" />
-                                    <h5>React JS</h5>
+                                    <h5>React.js</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meterImg1} alt="Skill Meter" />

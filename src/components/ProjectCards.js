@@ -12,6 +12,7 @@ export default function ProjectCards({ title, description, imgURL, githubURL, we
                     <span>{description}</span>
                     <div className='align-items-center justify-content-center mt-1 mb-1'>
                         <Button className='mb-1' href={githubURL} target='blank'>View Github Repository</Button>
+                        <br />
                         {
                             webURL === "" ? "" : <Button className='mt-1 mb-1' href={webURL} target='blank'>View Deployed Website</Button>
                         }
