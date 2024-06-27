@@ -8,12 +8,11 @@ import { HashLink } from "react-router-hash-link"
 import { BrowserRouter } from "react-router-dom"
 
 export default function Banner() {
-    
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Front-End Developer", "Data Scientist", "Student"];
+    const toRotate = ["MERN Stack Developer", "Data Analyist", "Student", "AI Enthusiast", "Web Developer"];
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
+    const [delta, setDelta] = useState(200 - Math.random() * 100);
     const period = 2000;
 
     useEffect(() => {
@@ -32,7 +31,9 @@ export default function Banner() {
         setText(updatedText);
 
         if (isDeleting) {
-            setDelta(prevDelta => prevDelta / 2)
+            setDelta(100); // Increase delta for slower deleting
+        } else {
+            setDelta(200 - Math.random() * 100); // Decrease delta for faster typing
         }
 
         if (!isDeleting && updatedText === fullText) {
@@ -41,7 +42,7 @@ export default function Banner() {
         } else if (isDeleting && updatedText === "") {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(300);
+            setDelta(200 - Math.random() * 100);
         }
     }
 

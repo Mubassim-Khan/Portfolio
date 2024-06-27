@@ -4,7 +4,7 @@ import contactImg from "../assets/images/contact-img.svg"
 import colorGradient2 from "../assets/images/color-sharp2.png"
 
 export default function Contact() {
-    
+
     const formInitialDetails = {
         firstName: '',
         lastName: '',
@@ -34,7 +34,7 @@ export default function Contact() {
             },
             body: JSON.stringify(formDetails),
         });
-        
+
         setButtonText("Send");
         let result = await response.json();
         setFormDetails(formInitialDetails);

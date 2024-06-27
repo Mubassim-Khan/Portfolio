@@ -1,8 +1,4 @@
-import Netflix from "../src/assets/images/netflix-img.jpg"
-import TextTools from "../src/assets/images/text-tools-img.png"
 import iCalculator from "../src/assets/images/iphone-calc-img.png"
-import landingPage from "../src/assets/images/landing-page-img.png"
-import travelJournal from "../src/assets/images/travel-journal-img.png"
 import businessCard from "../src/assets/images/business-card.png"
 
 export const dataTab1 = [
@@ -10,7 +6,7 @@ export const dataTab1 = [
         id: 1,
         title: "Netflix Clone",
         description: "A Netflix-inspired Clone, built using Vanilla JavaScript to recreate the visual design and layout of the Netflix.",
-        imgURL: Netflix,
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/Netflix-Clone/main/Preview.jpg",
         webURL: "https://netfflix-clone.netlify.app/",
         githubURL: "https://github.com/Mubassim-Khan/Netflix-Clone",
     },
@@ -34,7 +30,7 @@ export const dataTab1 = [
         id: 4,
         title: "Travel Journal",
         description: "A Travel Journal is a dynamic website, having cards of different of places along with its image, description, link of Google Maps & much more.",
-        imgURL: travelJournal,
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/My-Travel-Journal/main/src/Components/Preview_Home.png",
         webURL: "https://m-travel-journal.netlify.app/",
         githubURL: "https://github.com/Mubassim-Khan/My-Travel-Journal",
     },
@@ -50,7 +46,7 @@ export const dataTab1 = [
         id: 6,
         title: "DotCom Communications",
         description: "A dynamic website which creates the visual UI/UX design and layout of landing & login page.",
-        imgURL: landingPage,
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/Landing---Login-Page/main/src/Assets/Preview.png",
         webURL: "https://m-dotcom.netlify.app/",
         githubURL: "https://github.com/Mubassim-Khan/Landing---Login-Page",
     }
@@ -85,7 +81,7 @@ export const dataTab2 = [
         id: 4,
         title: "Text Tools",
         description: "Text Tools is React.js based app, which provides you various features to manipulate your text in the way you want.",
-        imgURL: TextTools,
+        imgURL: "https://raw.githubusercontent.com/Mubassim-Khan/TextTools-React-JS/master/src/Assets/Preview.png",
         webURL: "https://mtexttools.netlify.app/",
         githubURL: "https://github.com/Mubassim-Khan/TextTools-React-JS",
     },

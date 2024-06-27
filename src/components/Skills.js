@@ -6,6 +6,7 @@ import meterImg2 from '../assets/images/meter2.svg'
 import meterImg3 from '../assets/images/meter3.svg'
 import colorGradient from "../assets/images/color-sharp.png"
 import { Col, Container, Row } from 'react-bootstrap';
+import { LanguageSkills } from '../SkillsData';
 
 export default function Skills() {
     const responsive = {
@@ -34,40 +35,16 @@ export default function Skills() {
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>I have a bunch of skills in the field of Web Development & Data Structures, some of them are mentioned below.</p>
+                            <p>I have a bunch of skills in programming languages, some of them are mentioned below.</p>
                             <Carousel responsive={responsive} infinite={true} swipeable={true} draggable={false} className='skill-slider'>
-                                <div className="item">
-                                    <img src={meterImg3} alt="Skill Meter" />
-                                    <h5>Web Development</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meterImg2} alt="Skill Meter" />
-                                    <h5>Data Science</h5>
-                                </div>
-                                {/* <div className="item">
-                                    <img src={meterImg2} alt="Skill Meter" />
-                                    <h5>Data Stuctures & Algorithms</h5>
-                                </div> */}
-                                <div className="item">
-                                    <img src={meterImg1} alt="Skill Meter" />
-                                    <h5>Front-End Development</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meterImg3} alt="Skill Meter" />
-                                    <h5>Java</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meterImg2} alt="Skill Meter" />
-                                    <h5>Python</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meterImg1} alt="Skill Meter" />
-                                    <h5>React.js</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meterImg1} alt="Skill Meter" />
-                                    <h5>Javascript</h5>
-                                </div>
+                                {LanguageSkills.map((skill, key) => {
+                                    return (
+                                        <div className="item">
+                                            <img src={skill.imgURL} alt="Skill Meter" />
+                                            <h5>{skill.name}</h5>
+                                        </div>
+                                    )
+                                })}
                             </Carousel>
                         </div>
                     </Col>
