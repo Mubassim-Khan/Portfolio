@@ -30,11 +30,17 @@ This repository contains the code of a Portfolio using React.js, Bootstrap, Anim
 ## <a name="features">Features</a>
 
 👉 **Responsive design**: The web page adapts to different screen sizes, ensuring a consistent user experience on desktop & mobile devices.
+
 👉 **Interactive components**: The page includes interactive elements such as buttons, cards, animations & other hover effects on buttons.
+
 👉 **CSS styling**: The stylesheets provide a sleek and modern look.
+
 👉 **Animations**: Very smart & simple animations appears when switching into different sections.
+
 👉 **UI Tracking**: By using Trackvisiblity, the current position of user on the page can be tracked down in order to improve UI experience.
+
 👉 **Dynaimc Switching**: A single click on Navbar can shift you dynamically from one section to another.
+
 👉 **Feedback**: Send your valuable feedback to me via Node-Mailer mailing server.
 
 ## <a name="tech-stack">Tech Stack 🛠️</a>
