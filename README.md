@@ -45,11 +45,11 @@ This repository contains the code of a Portfolio using React.js, Bootstrap, Anim
 
 ## <a name="tech-stack">Tech Stack 🛠️</a>
 
-- [React](https://reactjs.org/) - UI Library
+- [React.js](https://reactjs.org/) - UI Library
 - [Bootstrap 5](https://getbootstrap.com/) - CSS Framework
 - [Prettier](https://prettier.io/) - Code Formatter
 - [Material Icons](https://mui.com/material-ui/material-icons/) - Material UI Icons
-- [Node Mailer](https://nodemailer.com/) - Mailing Server
+- [Email JS](https://www.emailjs.com/) - Mailing Server
 - [Animate.css](https://animate.style/) - Animations
 
 ## <a name="#quick-start">Getting Started</a>
@@ -59,7 +59,7 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Mubassim-Khan/Portfolio
+git clone https://github.com/Mubassim-Khan/Portfolio.git
 ```
 
 2. Open the project in your preferred code editor.
