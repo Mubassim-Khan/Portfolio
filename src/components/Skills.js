@@ -13,15 +13,15 @@ export default function Skills() {
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 3
+            items: 4
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
-            items: 2
+            items: 3
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
-            items: 1
+            items: 2
         }
     };
 
@@ -36,7 +36,7 @@ export default function Skills() {
                             <Carousel responsive={responsive} infinite={true} swipeable={true} draggable={false} className='skill-slider'>
                                 {LanguageSkills.map((skill, key) => {
                                     return (
-                                        <div className="item">
+                                        <div className="item" key={skill.id}>
                                             <img src={skill.imgURL} alt="Skill Meter" />
                                             <h5>{skill.name}</h5>
                                         </div>
