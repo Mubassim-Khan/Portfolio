@@ -1,0 +1,3 @@
+Update projects
+Add Animations on the skills
+Add hot toast as alert

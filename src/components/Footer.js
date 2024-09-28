@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 // import Logo from "../assets/images/logo.svg"
 import footerIcon1 from "../assets/images/nav-icon1.svg"
 import githubIcon from "../assets/images/githubIcon.svg"
-import footerIcon3 from "../assets/images/nav-icon3.svg"
+// import footerIcon3 from "../assets/images/nav-icon3.svg"
 import { BrowserRouter, Link } from "react-router-dom"
 
 export default function Footer() {
@@ -23,11 +23,11 @@ export default function Footer() {
                                 <Link to="https://www.github.com/Mubassim-Khan">
                                     <img src={githubIcon} alt="GitHub" />
                                 </Link>
-                                <Link to="https://www.instagram.com/mubassimkhan_08/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+                                {/* <Link to="https://www.instagram.com/mubassimkhan_08/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
                                     <img src={footerIcon3} alt="Instagram" />
-                                </Link>
+                                </Link> */}
                             </div>
-                            <p>Copyright 2023. All Rights Reserved</p>
+                            <p>Copyright 2024. All Rights Reserved</p>
                         </Col>
                     </Row>
                 </Container>

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 // import Logo from '../assets/images/logo.png';
 import navIcon1 from '../assets/images/nav-icon1.svg'
-import navIcon3 from '../assets/images/nav-icon3.svg'
+// import navIcon3 from '../assets/images/nav-icon3.svg'
 import githubIcon from "../assets/images/githubIcon.svg"
 import { BrowserRouter, Link } from "react-router-dom"
 import { HashLink } from "react-router-hash-link"
@@ -52,9 +52,9 @@ export default function NavBar() {
                 <Link to="https://www.github.com/Mubassim-Khan">
                   <img src={githubIcon} alt="GitHub" />
                 </Link>
-                <Link to="https://www.instagram.com/mubassimkhan_08/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+                {/* <Link to="https://www.instagram.com/mubassimkhan_08/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
                   <img src={navIcon3} alt="Instagram" />
-                </Link>
+                </Link> */}
               </div>
               <span>
                 <HashLink to="#connect">
