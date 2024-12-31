@@ -10,7 +10,7 @@ import { BrowserRouter } from "react-router-dom"
 export default function Banner() {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["MERN Stack Developer", "Data Analyist", "Student", "AI Enthusiast", "Web Developer"];
+    const toRotate = ["MERN Stack Developer", "Data Analyst", "Student", "AI Enthusiast", "Web Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(200 - Math.random() * 100);
     const period = 2000;

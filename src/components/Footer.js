@@ -17,10 +17,10 @@ export default function Footer() {
                         </Col>
                         <Col sm={6} className="text-center text-sm-end">
                             <div className="social-icons">
-                                <Link to="https://www.linkedin.com/in/mubassim-ahmed-khan/">
+                                <Link to="https://www.linkedin.com/in/mubassim" target="_blank" rel="noopener noreferrer">
                                     <img src={footerIcon1} alt="LinkedIn" />
                                 </Link>
-                                <Link to="https://www.github.com/Mubassim-Khan">
+                                <Link to="https://www.github.com/Mubassim-Khan" target="_blank" rel="noopener noreferrer">
                                     <img src={githubIcon} alt="GitHub" />
                                 </Link>
                                 {/* <Link to="https://www.instagram.com/mubassimkhan_08/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
